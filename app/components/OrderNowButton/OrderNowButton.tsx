@@ -1,3 +1,4 @@
+"use client";
 import { Button } from "@mui/material";
 import React from "react";
 
@@ -7,6 +8,7 @@ const OrderNowButton = () => {
       variant="contained"
       color="success"
       href="https://www.swiggy.com/restaurants/meesala-rajugari-mess-madhapur-sri-sai-nagar-hyderabad-357118"
+      target="_blank"
     >
       Order Now
     </Button>
