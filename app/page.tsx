@@ -1,4 +1,3 @@
-import Image from "next/image";
 import LoadingAnimation from "./components/loadingAnimation/LoadingAnimation";
 import OrderNowButton from "./components/OrderNowButton/OrderNowButton";
 
@@ -12,7 +11,7 @@ export default function Home() {
         <span className="font-bold">M</span>ess
       </h1>
       <LoadingAnimation></LoadingAnimation>
-      <h2 className={`text-2xl sm:text-3xl md:text-5xl font-bold mb-6`}>
+      <h2 className={`text-2xl sm:text-3xl md:text-5xl font-bold my-6`}>
         COMING SOON
       </h2>
       <OrderNowButton></OrderNowButton>
