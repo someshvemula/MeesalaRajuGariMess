@@ -4,7 +4,7 @@ import Image, { StaticImageData } from "next/image";
 
 const Navbar = () => {
   return (
-    <header className="bg-black w-full p-2 border-b border-gray-500">
+    <header className="bg-black mb-2 w-full p-2 border-b border-gray-500">
       <Image
         src={logo}
         alt="logo"
