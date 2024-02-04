@@ -1,7 +1,7 @@
 "use client";
 import Lottie from "lottie-react";
 import React from "react";
-import welcomeAnimation from "../../assets/welcomeAnimation.json";
+import welcomeAnimation from "../../assets/welcomeAnimation_5.json";
 
 const LoadingAnimation = () => {
   return (
